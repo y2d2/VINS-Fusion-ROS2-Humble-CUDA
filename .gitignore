@@ -2,6 +2,7 @@
 ex_calib_result.yaml
 vins_result.csv
 data_generator/
+dataset/
 test/
 test.launch
 evaluate/
@@ -14,3 +15,4 @@ result_gps.txt
 2*.txt
 camera_camera_calib.yaml
 camera_chessboard_data.dat
+install.tar.gz
