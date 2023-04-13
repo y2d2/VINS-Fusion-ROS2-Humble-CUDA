@@ -11,4 +11,4 @@ sudo docker run --runtime nvidia --rm -it \
         -v /etc/enctune.conf:/etc/enctune.conf \
         -v $script_dir/../../../../:/root/ros2_ws/ \
         jasonxxxyyy/sky-explorer:runtime-cuda11.4-ros2-arm64 \
-        /root/ros2_ws/src/docker/scripts/vins_demo.py
+        /root/ros2_ws/src/VINS-Fusion/docker/scripts/vins_demo.py

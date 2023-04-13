@@ -6,4 +6,4 @@ docker run --rm \
         -v /usr/bin/qemu-aarch64-static:/usr/bin/qemu-aarch64-static \
         -v $script_dir/../../../../:/root/ros2_ws/ \
         jasonxxxyyy/sky-explorer:runtime-cuda11.4-ros2-arm64 \
-        /root/ros2_ws/src/docker/scripts/vins_demo.py --pack
+        /root/ros2_ws/src/VINS-Fusion/docker/scripts/vins_demo.py --pack
