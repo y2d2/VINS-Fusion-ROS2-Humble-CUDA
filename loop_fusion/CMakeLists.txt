@@ -57,5 +57,9 @@ install(TARGETS loop_fusion_node
 install(TARGETS loop_fusion_node
    RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
+install(
+   DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/../support_files
+   DESTINATION share
+)
 
 ament_package()
